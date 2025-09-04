@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Post; // ⬅️ Postモデルをインポートしているか
+use App\Models\Post;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth; // ⬅️ Authをインポートしているか
+use Illuminate\Support\Facades\Auth;
 
 class CommentController extends Controller
 {

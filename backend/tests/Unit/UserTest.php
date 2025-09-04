@@ -3,13 +3,13 @@
 namespace Tests\Unit;
 
 use App\Models\User;
-use Illuminate\Foundation\Testing\RefreshDatabase; // ⬅️ インポート
-use Illuminate\Support\Facades\Hash; // ⬅️ インポート
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Support\Facades\Hash;
 use Tests\TestCase;
 
 class UserTest extends TestCase
 {
-    use RefreshDatabase; // ⬅️ 各テスト後にDBをリセットする
+    use RefreshDatabase;
 
     /**
      * パスワードが作成時にハッシュ化されることを確認するテスト
